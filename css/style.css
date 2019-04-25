@@ -1,0 +1,135 @@
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    color: white;
+    background-color: black;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    border-radius: 20px;
+    border-color: #f44336;
+}
+
+nav a:hover {
+    background-color: #f44336;
+}
+
+header {
+    background: url("/ivoiretechnologies/img/entete.png") no-repeat;
+    background-position: center;
+    color: white;
+    height: 500px;
+    text-align: center;
+    margin-top: 18px;
+}
+
+header h1 {
+    font-size: 70px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+}
+
+header p {
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    margin-bottom: 50px;
+}
+
+header hr {
+    margin: auto;
+    width: 200px;
+    border-color: white;
+    border-width: 3px;
+    text-shadow: 1px 1px 1px black;
+}
+
+header a, #produits a {
+    padding: 14px 14px 14px 14px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 20px;
+    border-color: #f44336;
+    background-color: #f44336;
+}
+
+header a:hover, #produits a:hover {
+    color: #f44336;
+    border-color: white;
+    background-color: white;
+}
+
+section hr {
+    margin: auto;
+    width: 200px;
+    border-color: #f44336;
+    border-width: 3px;
+    text-shadow: 1px 1px 1px black;
+}
+
+textarea {
+    resize: none;
+}
+
+footer {
+    font-size: 16px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+input, textarea {
+    border-radius: 20px;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    background-color: #f44336 !important;
+    color: white !important;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background-color: white !important;
+    color: #f44336 !important;
+}
+
+#a-propos, #services, #contact {
+    text-align: center;
+}
+
+#a-propos h1, #services h1, #contact h1 {
+    color: #f44336;
+}
+
+#section-a-propos img {
+    width: 400px;
+    height: 400px;
+}
+
+#section-a-propos p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+#section-services img {
+    width: 90%;
+}
+
+#section-services h4 {
+    text-transform: uppercase;
+}
+
+#section-services p {
+    font-size: 16px;
+}
+
+#section-contact {
+    background-color: #f44336;
+    color: white;
+}
